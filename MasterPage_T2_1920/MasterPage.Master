@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MasterPage_T2_1920.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            Isto é um trabalho de SI
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div id="divAviso" runat="server">
+                Este site utiliza cookies.
+                <asp:Button ID="Button1" runat="server" Text="Aceitar" OnClick="Button1_Click" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
